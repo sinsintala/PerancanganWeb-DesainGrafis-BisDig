@@ -54,4 +54,28 @@ Proyek ini adalah contoh implementasi struktur HTML5 untuk membangun halaman pro
 2. Buka `index.html` di browser
 3. Pastikan file gambar `foto1.jpg`, `foto2.jpg`, dan `foto3.jpg` berada di direktori yang sama
 
+   soal no 4
+   # PerancanganWeb-DesainGrafis-BisDig
+
+## 🎓 Situs Portofolio Mahasiswa - Responsive Design
+
+Proyek ini mendemonstrasikan penerapan konsep *Responsive Web Design* menggunakan CSS dan media queries untuk memastikan layout gambar dan teks tampil rapi di semua perangkat, terutama smartphone.
+
+## 💡 Masalah
+Situs portofolio terlihat berantakan di perangkat kecil:
+- Gambar terlalu besar
+- Teks keluar dari layar
+
+## ✅ Solusi
+- Menggunakan `max-width`, `height: auto` untuk gambar agar tidak melebihi lebar layar
+- Menerapkan `flex-direction: column` melalui media queries untuk layout yang lebih fleksibel
+
+## 🧪 Uji Coba
+1. Buka `index.html` di browser desktop dan mobile
+2. Resize layar untuk melihat perubahan layout
+
+## 📁 File
+- `style.css`: Berisi kode CSS responsive dengan media queries
+
+
 
